@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data-refined-minify.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "T.Neugebauer"
+  },
+  "text": {
+    "more": "Prepared by Tomasz Neugebauer and Felicity Tayler for Desire Lines: Mapping the Metadata of Toronto Arts Publishing (2021)",
+    "intro": "Nodes (dots) represent people.  Edges (lines) connect people through magazine issues that they collaborated on.  <br />Edge color represents magazine(s). Edge width, how many issues. Node size is mapped to betweenness centrality.",
+    "title": "Fireweeed, Fuse (Centerfold), Border/Lines Magazine Contributors 1976-1987"
+  },
+  "legend": {
+    "edgeLabel": "magazine issue(s)",
+    "colorLabel": "The colour of the dot represents an algoyrythmically proposed &quot;community&quot; <img src=\"legend-nodes.png\" /><br />The colour of the line represents a magazine title, or multiple magazine titles <img src=\"legend-edges.png\" />",
+    "nodeLabel": "magazine contributor"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Modularity Class"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 25,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
