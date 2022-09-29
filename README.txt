@@ -4,8 +4,8 @@ https://agyu.art/project/desire-lines/
 Visualization available at:
 http://photomedia.ca/visualizations/artexte/sigma/agyu/
 
-Artexte metadata was converted into a graph using a fork of:
-https://github.com/photomedia/EPrintsData2GML
+Artexte metadata was converted into a dynamic co-contributor graph using PigLatin/Python scripting:
+https://github.com/photomedia/ArtexteXMLtoDynamicGML
 
 Gephi (https://github.com/gephi/gephi) was used for filtering and layout of the graph.
 
